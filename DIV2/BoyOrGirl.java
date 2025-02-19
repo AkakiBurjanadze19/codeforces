@@ -6,6 +6,10 @@ import java.util.HashSet;
 
 public class BoyOrGirl {
     public static void main(String[] args) {
+        solve();
+    }
+
+    public static void solve() {
         Scanner sc = new Scanner(System.in);
 
         String username = sc.next();
