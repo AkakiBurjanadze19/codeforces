@@ -17,12 +17,12 @@ public class ShortSubstrings {
 
             ArrayList<String> strs = new ArrayList<>();
             for (int i = 0; i < b.length() - 1; i++) {
-                String str = "";
-                str += b.charAt(i);
-                str += b.charAt(i + 1);
+                StringBuilder str = new StringBuilder();
+                str.append(b.charAt(i));
+                str.append(b.charAt(i + 1));
 
                 i++;
-                strs.add(str);
+                strs.add(str.toString());
             }
 
             StringBuilder output = new StringBuilder();
